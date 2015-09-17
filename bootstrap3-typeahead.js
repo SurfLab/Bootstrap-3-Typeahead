@@ -393,6 +393,7 @@
     click: function (e) {
       e.preventDefault();
       this.select();
+      this.focused = true;
       this.$element.focus();
     },
 
